@@ -12,7 +12,7 @@ h1 {
   line-height:1em;
   text-align: center;
   color: #4DC3FA;
-  position: sticky;
+  justify-content: center;
 }
 
 h2 {
@@ -23,7 +23,7 @@ h2 {
   line-height:1em;
   padding-bottom: 1em;
   color: #cc4c5d;
-  position: sticky;
+  justify-content: center;
 }
 
 h2 a {
