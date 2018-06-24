@@ -2,6 +2,7 @@ var express = require('express')
 var morgan = require('morgan')
 var path = require('path')
 var app = express()
+var config = require('config')
 
 // Sends static files from the public path directory
 app.use(express.static(path.join(__dirname, '/public')))
