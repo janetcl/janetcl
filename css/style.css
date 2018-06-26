@@ -75,7 +75,7 @@ z-index: 999999;
 .loader {
   display: flex;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 40%;
   width: 75px;
   height: 100px;
