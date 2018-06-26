@@ -43,7 +43,7 @@ main {
   font-family: 'brian_straitregular';
   font-weight: normal;
   font-style: normal;
-  font-size: 3em;
+  font-size: 75px;
 }
 
 .made-with-love i {
@@ -75,8 +75,8 @@ z-index: 999999;
 .loader {
   display: flex;
   position: absolute;
-  top: 30%;
-  left: 40%;
+  top: 40%;
+  left: 48%;
   width: 75px;
   height: 100px;
 }
