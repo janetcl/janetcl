@@ -43,7 +43,7 @@ main {
   font-family: 'brian_straitregular';
   font-weight: normal;
   font-style: normal;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 .made-with-love i {
@@ -501,8 +501,8 @@ z-index: 999999;
 
 @font-face {
     font-family: 'brian_straitregular';
-    src: url('brian_strait_personal_use-webfont.woff2') format('woff2'),
-         url('brian_strait_personal_use-webfont.woff') format('woff');
+    src: url('/fonts/brian_strait_personal_use-webfont.woff2') format('woff2'),
+         url('/fonts/brian_strait_personal_use-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
