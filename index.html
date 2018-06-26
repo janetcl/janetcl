@@ -149,7 +149,7 @@
     $(window).on("load", function() {
       preloaderFadeOutTime = 2000;
       function hidePreloader() {
-        var preloader = $('.cube-wrapper');
+        var preloader = $('.loader-wrapper');
         // var preloader_bar = $('.loader_bar');
         // var preloader_ball = $('.loader_ball');
         preloader.fadeOut(preloaderFadeOutTime);
@@ -162,12 +162,27 @@
   </script>
   </body>
   <!--CSS Cube-->
-<div class="cube-wrapper">
+<!-- <div class="cube-wrapper">
   <div class="sk-folding-cube">
   <div class="sk-cube1 sk-cube"></div>
   <div class="sk-cube2 sk-cube"></div>
   <div class="sk-cube4 sk-cube"></div>
   <div class="sk-cube3 sk-cube"></div>
+  </div>
+</div> -->
+
+
+
+
+<!--CSS Loader -->
+<div class="loader-wrapper">
+  <div class="loader">
+    <div class="loader__bar"></div>
+    <div class="loader__bar"></div>
+    <div class="loader__bar"></div>
+    <div class="loader__bar"></div>
+    <div class="loader__bar"></div>
+    <div class="loader__ball"></div>
   </div>
 </div>
 </html>
