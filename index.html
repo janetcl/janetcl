@@ -5,19 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Hello!</title>
 
+  <!-- JS -->
+  <script type="text/javascript" src="js/jquery-latest.js"></script>
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <!-- <script>
-   $(window).load(function() {
-     $()
-   })
-  </script> -->
+  <script>
+  $(document).ready(function() {
+    //Preloader
+    $(window).on("load", function() {
+      preloaderFadeOutTime = 500;
+      function hidePreloader() {
+        var preloader = $('.loader');
+        preloader.fadeOut(preloaderFadeOutTime);
+      }
+      hidePreloader();
+    });
+  });
+  </script>
+
 </head>
 <body>
 
-  <div class="preloader-wrapper big active loader">
+  <div class="loader">
   <div class="loader__bar"></div>
   <div class="loader__bar"></div>
   <div class="loader__bar"></div>

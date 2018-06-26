@@ -6,6 +6,16 @@
  * Made By MaterializeCSS.com
  */
 
+ /* @font-face {
+     font-family: myFirstFont;
+     src: url(sansation_light.woff);
+ }
+
+ div {
+     font-family: myFirstFont;
+ } */
+
+
 .icon-block {
   padding: 0 15px;
 }
