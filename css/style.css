@@ -76,7 +76,7 @@ z-index: 999999;
   display: flex;
   position: absolute;
   top: 40%;
-  left: 48%;
+  left: 40%;
   width: 75px;
   height: 100px;
 }
@@ -491,13 +491,13 @@ z-index: 999999;
   }
 }
 
-@font-face {
+/* @font-face {
     font-family: 'shella_cleanregular';
     src: url('/fonts/shella_clean_dafont-webfont.woff2') format('woff2'),
          url('/fonts/shella_clean_dafont-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 @font-face {
     font-family: 'brian_straitregular';
