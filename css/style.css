@@ -74,9 +74,12 @@ z-index: 999999;
 
 .loader {
   display: flex;
-  position: absolute;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute;
   top: 40%;
-  left: 48%;
+  left: 48%; */
   width: 75px;
   height: 100px;
 }
