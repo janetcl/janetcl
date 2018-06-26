@@ -39,16 +39,6 @@ main {
   flex: 1 0 auto;
 }
 
-
-/* .made-with-love {
-  margin-top: 40px;
-  padding: 10px;
-  clear: left;
-  text-align: center;
-  font-size: 10px;
-  font-family: arial;
-  color: #fff;
-} */
 .made-with-love i {
   font-style: normal;
   /* color: #F50057; */
@@ -63,8 +53,6 @@ main {
 .made-with-love a:hover {
   text-decoration: underline;
 }
-
-
 
 
 /* preloader */
@@ -90,13 +78,14 @@ z-index: 999999;
 } */
 
 .loader {
-  align-items: center;
-  justify-content: center;
+  height: 100%;
+  display: flex;
   position: relative;
   align-items: center;
   justify-content: center;
   width: 75px;
   height: 100px;
+  z-index: 999999;
 }
 .loader__bar {
   position: absolute;
