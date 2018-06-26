@@ -504,7 +504,7 @@ top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-background-color: #ff6347;
+background-color: #ffffff;
 z-index: 999999;
 }
 
@@ -536,7 +536,7 @@ z-index: 999999;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #ffab91;
   -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
           animation: sk-foldCubeAngle 2.4s infinite linear both;
   -webkit-transform-origin: 100% 100%;
