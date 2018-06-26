@@ -81,20 +81,19 @@ body {
 } */
 
 
-.loader {
+/* .loader {
 top: 0;
 left: 0;
 right: 0;
 bottom: 0;
 z-index: 999999;
-}
+} */
 
-/*
 .loader {
   position: relative;
   align-items: center;
   justify-content: center;
-} */
+}
 
 .loader .main {
   position: relative;
