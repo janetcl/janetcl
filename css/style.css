@@ -90,7 +90,6 @@ z-index: 999999;
 } */
 
 .loader {
-  position: relative;
   align-items: center;
   justify-content: center;
 }
