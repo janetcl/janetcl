@@ -82,6 +82,8 @@ body {
 
 .loader {
   position: relative;
+  align-items: center;
+  justify-content: center;
   width: 75px;
   height: 100px;
 }

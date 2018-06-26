@@ -18,7 +18,11 @@
       preloaderFadeOutTime = 500;
       function hidePreloader() {
         var preloader = $('.loader');
+        var preloader_bar = $('.loader_bar');
+        var preloader_ball = $('.loader_ball');
         preloader.fadeOut(preloaderFadeOutTime);
+        preloader_bar.fadeOut(preloaderFadeOutTime);
+        preloader_ball.fadeOut(preloaderFadeOutTime);
       }
       hidePreloader();
     });
