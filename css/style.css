@@ -82,6 +82,24 @@ main {
   text-align: left;
 }
 
+.about_section ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1.2em;
+    text-indent: -3em;
+}
+
+.about_section li:before {
+    content: "I am <style=bold>";
+    display: block;
+    float: left;
+    width: 1.2em;
+    color: #ff0000;
+}
+
+
+
+
 .loader-wrapper {
 position: fixed;
 top: 0;
