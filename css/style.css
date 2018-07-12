@@ -98,9 +98,11 @@ main {
     color: #ffab91;
 }
 
-.em {
+.about_section .dd .em {
   font-weight: bold;
   color: #ffab91;
+  padding-left: 1.3em;
+  text-indent: -1.2em;
 }
 
 
