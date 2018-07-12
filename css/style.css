@@ -78,6 +78,9 @@ main {
   font-weight: bold;
 }
 
+.about_section {
+  text-align: left;
+}
 
 .loader-wrapper {
 position: fixed;
