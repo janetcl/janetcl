@@ -4557,8 +4557,8 @@ h6 {
 }
 
 em {
-  /* font-style: italic; */
-  font-weight: bold;
+  font-style: italic;
+  font-weight: lighter;
   color: #ffab91;
 }
 

@@ -82,7 +82,7 @@ main {
   text-align: left;
 }
 
-/* .about_section ul {
+.about_section ul {
     list-style: none;
     margin-left: 0em;
     padding-left: 1.3em;
@@ -96,7 +96,7 @@ main {
     float: left;
     width: 1.2em;
     color: #ffab91;
-} */
+}
 
 .about_section .dl .dd .em {
   font-weight: bold;
