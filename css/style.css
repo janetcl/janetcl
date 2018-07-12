@@ -66,7 +66,17 @@ main {
   max-height: 100%;
 }
 
+.signature {
+  font-family: 'brian_straitregular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 70px;
+  float: right;
+}
 
+.I_am {
+  font-weight: bold;
+}
 
 
 .loader-wrapper {
