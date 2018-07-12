@@ -105,6 +105,15 @@ main {
   text-indent: -1.2em;
 }
 
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
 
 
 
