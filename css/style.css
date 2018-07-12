@@ -90,10 +90,12 @@ main {
 }
 
 .about_section li:before {
-    content: "I am <style=bold>";
+    content: "I am";
+    font-weight: bold;
     display: block;
     float: left;
     width: 1.2em;
+    color: #ffab91;
 }
 
 
