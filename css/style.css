@@ -556,8 +556,8 @@ z-index: 999999;
 
 @font-face {
     font-family: 'brian_straitregular';
-    src: url('/brian/brian_strait_personal_use-webfont.woff2') format('woff2'),
-         url('/brian/brian_strait_personal_use-webfont.woff') format('woff');
+    src: url('../brian/brian_strait_personal_use-webfont.woff2') format('woff2'),
+         url('../brian/brian_strait_personal_use-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
